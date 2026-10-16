@@ -1,0 +1,18 @@
+# Build outputs
+build/
+build-*/
+*.component/
+# Backups made by scripts/deploy.sh --install
+install-backups/
+# The foobar2000 SDK (scripts/fetch-sdk.sh puts it here; it is not part of this repository)
+third_party/foobar2000-sdk/
+# Editor, tooling and patch leftovers
+.DS_Store
+compile_commands.json
+.cache/
+__pycache__/
+*.pyc
+*.orig
+*.rej
+# Release packages (scripts/package.sh)
+dist/
